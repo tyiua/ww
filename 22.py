@@ -27,6 +27,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import GridSearchCV
 from PIL import Image
 from ultralytics import YOLO
+from sklearn.model_selection import cross_val_score
 
 # 设置中文字体支持
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'KaiTi', 'SimSun']
